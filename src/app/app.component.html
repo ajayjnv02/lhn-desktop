@@ -1,0 +1,15 @@
+<div class="sliding-images" [style.height.px]="slidingImagesHeight">
+  <ng-container *ngFor="let image of images; let i = index">
+    <div *ngIf="i === currentIndex" class="slide">
+      <img [src]="image" alt="Sliding image" />
+    </div>
+  </ng-container>
+</div>
+<div class="bottom-section" [style.height.px]="bottomSectionHeight">
+  <div class="banner">
+    <img [src]="banner_image" alt="banner image" />
+  </div>
+  <div class="details">
+    <!-- Add your date, day, time, sunrise time, sunset time, etc. implementation here -->
+  </div>
+</div>

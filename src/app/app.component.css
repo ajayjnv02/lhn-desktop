@@ -1,0 +1,88 @@
+
+.sliding-images {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bottom-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  overflow: hidden;
+}
+
+.banner {
+  flex: 0 0 80%; /* Set the flex-grow, flex-shrink, and flex-basis properties */
+  position: relative; /* Add this */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details {
+  flex: 0 0 20%; /* Set the flex-grow, flex-shrink, and flex-basis properties */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/**
+.bottom-section {
+  display: flex;
+  width: 100%;
+}
+
+.banner {
+  width: 80%;
+}
+
+.details {
+  width: 20%;
+}
+.bottom-section {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.banner {
+  width: 80%;
+  background-color: lightgrey;
+}
+
+.details {
+  width: 20%;
+  background-color: darkgrey;
+}
+**/
